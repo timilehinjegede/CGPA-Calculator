@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="SettingsFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCFCFC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            style="@style/viewParent.headerText"
+            android:text="Welcome" />
+
+            <TextView
+                android:id="@+id/lastNameTextView"
+                style="@style/viewParent.headerText"
+                android:text="Timilehin Jegede"
+                android:textSize="20sp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                />
+
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:padding="15dp"
+            android:text="Profile"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            />
+
+        <TextView
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:padding="10dp"
+            android:text="Change Name" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            />
+
+        <TextView
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:padding="10dp"
+            android:text="Change Level" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            />
+
+        <TextView
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:padding="10dp"
+            android:text="Institution" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            />
+
+        <TextView
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:padding="10dp"
+            android:text="Grading System" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            />
+
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:padding="15dp"
+            android:text="Others"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            />
+
+        <TextView
+            android:padding="10dp"
+            style="@style/viewParent.headerText.settingsTextIcon"
+            android:text="Change Theme" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            />
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:padding="10dp"
+            android:textColor="#020000"
+            android:text="Logout" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000000"
+            />
+
+
+        <TextView
+            android:padding="15dp"
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:text="About CGPA Calculator"/>
+
+        <TextView
+            style="@style/viewParent.headerText.settingsMiniTitle"
+            android:text="App ver 1.0.0"
+            android:textAlignment="center"/>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
